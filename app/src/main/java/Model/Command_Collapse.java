@@ -1,10 +1,12 @@
 package Model;
 
+import java.io.Serializable;
+
 /**
  * Created by Billy on 10/11/2017.
  */
 
-public class Command_Collapse {
+public class Command_Collapse  implements Serializable{
     String id,direct,locate,context;
     String giamsat,dvyeucau,dkantoan,tungay,denngay,tbthinghiem,phuongtien,sdtlaixe,gioracong,thihanhlenh;
 
