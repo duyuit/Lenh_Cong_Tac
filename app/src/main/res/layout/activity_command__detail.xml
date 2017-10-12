@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.billy.lenhcongtac.Command_Detail"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/chihuy"
+        android:layout_height="wrap_content"
+        android:text="Chỉ huy: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/bacchihuy"
+        android:text="Bậc: "></TextView>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/giamsat"
+            android:text="Giám sát: "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/bacgiamsat"
+            android:text="Bậc: " />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/noicongtac"
+        android:layout_height="wrap_content"
+        android:text="Nơi công tác: "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/sdttruongnhom"
+        android:layout_height="wrap_content"
+        android:text="SDT Trưởng nhóm: "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/sdtlaixe"
+        android:layout_height="wrap_content"
+        android:text="SDT Lái xe: "/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/noidungcongtac"
+        android:layout_height="wrap_content"
+        android:text="Nội dung công tác: "/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/donviyeucau"
+        android:layout_height="wrap_content"
+        android:text="Đơn vị yêu cầu: "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/dieukienantoan"
+        android:layout_height="wrap_content"
+        android:text="Điều khiện an toàn: "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tungay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Từ ngày: "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/denngay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đến ngày: "/>
+
+    <TextView
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+        android:id="@+id/dungcu"
+    android:layout_height="wrap_content"
+    android:text="Dụng cụ và thiết bị: "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/phuongtien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phương tiện di chuyển: "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/gioracong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giờ ra cổng: "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/thihanhlenh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thi hành lệnh: "/>
+
+</LinearLayout>
