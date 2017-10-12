@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://C:\Users\Vu Khac Hoi\Documents\GitHub\Lenh_Cong_Tac\LenhCongTac.iml" filepath="C:\Users\Vu Khac Hoi\Documents\GitHub\Lenh_Cong_Tac\LenhCongTac.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lenh_Cong_Tac.iml" filepath="$PROJECT_DIR$/Lenh_Cong_Tac.iml" />
+      <module fileurl="file://C:\Users\Hoi\Documents\GitHub\Lenh_Cong_Tac\Lenh_Cong_Tac.iml" filepath="C:\Users\Hoi\Documents\GitHub\Lenh_Cong_Tac\Lenh_Cong_Tac.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Hoi\Documents\GitHub\Lenh_Cong_Tac\app\app.iml" filepath="C:\Users\Hoi\Documents\GitHub\Lenh_Cong_Tac\app\app.iml" />
       <module fileurl="file://C:\Users\Vu Khac Hoi\Documents\GitHub\Lenh_Cong_Tac\app\app.iml" filepath="C:\Users\Vu Khac Hoi\Documents\GitHub\Lenh_Cong_Tac\app\app.iml" />
     </modules>
   </component>
