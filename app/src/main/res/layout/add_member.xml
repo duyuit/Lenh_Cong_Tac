@@ -13,8 +13,8 @@ android:gravity="center"
         android:hint="Tên Thành Viên"
         android:textStyle="bold"
         android:paddingRight="10dp"
-
-
+android:maxWidth="300dp"
+android:id="@+id/txtNameMember"
         android:textSize="17dp"
         android:paddingLeft="10dp"
 
@@ -23,6 +23,7 @@ android:gravity="center"
         android:textColor="#050505"
         />
     <ImageView
+
         android:src="@drawable/check"
         android:layout_width="40dp"
         android:id="@+id/imgCancel"
