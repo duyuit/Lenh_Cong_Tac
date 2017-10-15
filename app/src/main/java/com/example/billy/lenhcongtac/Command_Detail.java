@@ -60,17 +60,20 @@ public class Command_Detail extends AppCompatActivity {
         context.setText("Nội dung công tác: "+command_collapse.getContext());
 
 
-        Cursor cursor=database.rawQuery("select * from nhanvien where id="+command_collapse.getDirect(),null);
-        cursor.moveToFirst();
-        direct.setText("Chỉ huy: "+cursor.getString(1));
-        bac1.setText("Bậc: "+cursor.getString(3));
-        sdttruongnhom.setText("SDT Trưởng nhóm: "+cursor.getString(2));
+//        Cursor cursor=database.rawQuery("select * from nhanvien where id="+command_collapse.getDirect(),null);
+//        cursor.moveToFirst();
+//        direct.setText("Chỉ huy: "+cursor.getString(1));
+//        bac1.setText("Bậc: "+cursor.getString(3));
+        sdttruongnhom.setText("SDT Trưởng nhóm: "+command_collapse.getSdt());
 
 
-        cursor=database.rawQuery("select * from nhanvien where id="+command_collapse.getGiamsat(),null);
+        Cursor  cursor=database.rawQuery("select * from nhanvien where id="+command_collapse.getGiamsat(),null);
         cursor.moveToFirst();
         giamsat.setText("Giám sát: "+cursor.getString(1));
         bac2.setText("Bậc : "+cursor.getString(3));
 
     }
+
+
+
 }
