@@ -7,9 +7,39 @@ import java.io.Serializable;
  */
 
 public class Command_Collapse  implements Serializable{
-    String id,direct,locate,context;
+    String id;
+    String direct;
+    String locate;
+    String context;
+
+    public String getSdt() {
+        return Sdt;
+    }
+
+    public void setSdt(String sdt) {
+        Sdt = sdt;
+    }
+
+    String Sdt;
     String giamsat,dvyeucau,dkantoan,tungay,denngay,tbthinghiem,phuongtien,sdtlaixe,gioracong,thihanhlenh;
 
+    public String getDvyeucau() {
+        return dvyeucau;
+    }
+public  Command_Collapse(){}
+    public void setDvyeucau(String dvyeucau) {
+        this.dvyeucau = dvyeucau;
+    }
+
+    public int isCheck() {
+        return check;
+    }
+
+    public void setCheck(int check) {
+        this.check = check;
+    }
+
+    int check;
     public String getGiamsat() {
         return giamsat;
     }
@@ -90,7 +120,7 @@ public class Command_Collapse  implements Serializable{
         this.thihanhlenh = thihanhlenh;
     }
 
-    public Command_Collapse(String id, String direct, String locate, String context, String giamsat, String dvyeucau, String dkantoan, String tungay, String denngay, String tbthinghiem, String phuongtien, String sdtlaixe, String gioracong, String thihanhlenh) {
+    public Command_Collapse(String id, String direct, String locate, String context, String giamsat, String dvyeucau, String dkantoan, String tungay, String denngay, String tbthinghiem, String phuongtien, String sdtlaixe, String gioracong, String thihanhlenh,String Sdt) {
 
         this.id = id;
         this.direct = direct;
@@ -106,6 +136,7 @@ public class Command_Collapse  implements Serializable{
         this.sdtlaixe = sdtlaixe;
         this.gioracong = gioracong;
         this.thihanhlenh = thihanhlenh;
+        this.Sdt=Sdt;
     }
 
     public String getId() {
@@ -140,11 +171,5 @@ public class Command_Collapse  implements Serializable{
         this.context = context;
     }
 
-    public Command_Collapse(String id, String direct, String locate, String context) {
 
-        this.id = id;
-        this.direct = direct;
-        this.locate = locate;
-        this.context = context;
-    }
 }

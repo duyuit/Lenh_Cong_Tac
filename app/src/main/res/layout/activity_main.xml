@@ -21,200 +21,283 @@
             android:layout_marginTop="10dp"
             android:id="@+id/txt1"
             android:textColor="#030303"/>
-
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/border_textview"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txtch"
+        android:text="*Chỉ huy*"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
         <AutoCompleteTextView
-       android:id="@+id/txtchihuy"
+            android:id="@+id/txtchihuy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="40dp"
             android:hint="Chỉ Huy"
             android:textStyle="bold"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/border_textview"
+            android:background="@null"
             android:textSize="17dp"
             android:completionThreshold="1"
-            android:paddingLeft="10dp"
-            android:layout_marginRight="20dp"
             android:textColorHint="#9c9999"
-            android:layout_marginTop="20dp"
-
-
             android:textColor="#050505"
             />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_textview"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtgs"
+            android:text="*Giám sát*"
+            android:textStyle="italic"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
         <AutoCompleteTextView
-android:id="@+id/txtgiamsat"
+            android:id="@+id/txtgiamsat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="40dp"
             android:hint="Giám Sát"
             android:textStyle="bold"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/border_textview"
+
+            android:background="@null"
             android:textSize="17dp"
             android:completionThreshold="1"
-            android:paddingLeft="10dp"
-            android:layout_marginRight="20dp"
+
+
             android:textColorHint="#9c9999"
-            android:layout_marginTop="10dp"
+
             android:textColor="#050505"
             />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_textview"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtct"
+            android:text="*Nơi công tác*"
+            android:textStyle="italic"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
         <EditText
-android:id="@+id/edtnoicongtac"
+            android:id="@+id/edtnoicongtac"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="40dp"
             android:hint="Nơi Công Tác"
             android:textStyle="bold"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/border_textview"
+
+            android:background="@null"
             android:textSize="17dp"
 
-            android:paddingLeft="10dp"
-            android:layout_marginRight="20dp"
+
+
             android:textColorHint="#9c9999"
-            android:layout_marginTop="10dp"
+
             android:textColor="#050505"
             />
+    </LinearLayout>
 
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="40dp"
-
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/border_textview"
-            android:textSize="17dp"
-
-            android:paddingLeft="10dp"
-            android:layout_marginRight="20dp"
-            android:orientation="vertical"
-            android:layout_marginTop="10dp"
-
-            >
-            <LinearLayout
-                android:layout_gravity="center_horizontal"
-                android:id="@+id/lnAdd"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center_horizontal"
-                android:layout_height="wrap_content">
-                <AutoCompleteTextView
-android:id="@+id/txtaddmember"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:minHeight="40dp"
-                    android:hint="Số Điện Thoại Trưởng nhóm"
-                    android:textStyle="bold"
-                android:padding="5dp"
-                    android:background="@drawable/border_textview"
-                    android:textSize="17dp"
-                    android:completionThreshold="1"
-
-
-                    android:textColorHint="#9c9999"
-
-                    android:textColor="#050505"
-                    />
-            <ImageView
-                android:src="@drawable/add"
-                android:layout_width="40dp"
-                android:id="@+id/imgAdd"
-
-                android:layout_height="40dp" />
-            </LinearLayout>
-
-        </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_textview"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtdttruong"
+            android:text="*Số điện thoại trưởng nhóm*"
+            android:textStyle="italic"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
         <EditText
-android:id="@+id/edtdtTruong"
+            android:id="@+id/edtdtTruong"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="40dp"
-            android:hint="Số Điện Thoại Trưởng nhóm"
+            android:hint="Số Điện Thoại Trưởng Nhóm"
             android:textStyle="bold"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/border_textview"
+
+            android:background="@null"
             android:textSize="17dp"
 
-            android:paddingLeft="10dp"
-            android:layout_marginRight="20dp"
+
+
             android:textColorHint="#9c9999"
-            android:layout_marginTop="10dp"
+
             android:textColor="#050505"
             />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_textview"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtdtlaixe"
+            android:text="*Số diện thoại lái xe*"
+            android:textStyle="italic"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
         <EditText
-android:id="@+id/edtdtlaixe"
+            android:id="@+id/edtdtlaixe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="40dp"
             android:hint="Số Điện Thoại Lái Xe"
             android:textStyle="bold"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/border_textview"
+
+            android:background="@null"
             android:textSize="17dp"
 
-            android:paddingLeft="10dp"
-            android:layout_marginRight="20dp"
+
+
             android:textColorHint="#9c9999"
-            android:layout_marginTop="10dp"
+
             android:textColor="#050505"
             />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_textview"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtnd"
+            android:text="*Nội dung công tác*"
+            android:textStyle="italic"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
         <EditText
-android:id="@+id/edtnoidung"
+            android:id="@+id/edtnoidung"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="40dp"
             android:hint="Nội Dung Công Tác"
             android:textStyle="bold"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/border_textview"
-            android:textSize="17dp"
 
-            android:paddingLeft="10dp"
-            android:layout_marginRight="20dp"
+            android:background="@null"
+
+
+
             android:textColorHint="#9c9999"
-            android:layout_marginTop="10dp"
+
             android:textColor="#050505"
             />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_textview"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtdv"
+            android:text="*Nội dung công tác*"
+            android:textStyle="italic"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
         <EditText
-android:id="@+id/edtdonvi"
+            android:id="@+id/edtdonvi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="40dp"
             android:hint="Đơn Vị Yêu Cầu "
             android:textStyle="bold"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/border_textview"
+            android:background="@null"
             android:textSize="17dp"
-
-            android:paddingLeft="10dp"
-            android:layout_marginRight="20dp"
             android:textColorHint="#9c9999"
-            android:layout_marginTop="10dp"
             android:textColor="#050505"
             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_textview"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtdk"
+            android:text="*Điều kiện an toàn*"
+            android:textStyle="italic"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
         <EditText
-android:id="@+id/edtdieukien"
+            android:id="@+id/edtdieukien"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="Điều Kiện An Toàn"
             android:textStyle="bold"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/border_textview"
+
+            android:background="@null"
             android:textSize="17dp"
 
-            android:paddingLeft="10dp"
-            android:layout_marginRight="20dp"
             android:textColorHint="#9c9999"
-            android:layout_marginTop="10dp"
+
             android:textColor="#050505"
             />
+    </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -229,7 +312,7 @@ android:id="@+id/edtdieukien"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/border_textview"
                 android:textSize="17dp"
-android:id="@+id/txttungay"
+                android:id="@+id/txttungay"
                 android:paddingLeft="10dp"
                 android:layout_marginRight="20dp"
                 android:textColorHint="#9c9999"
@@ -246,7 +329,7 @@ android:id="@+id/txttungay"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/border_textview"
                 android:textSize="17dp"
-android:id="@+id/txtdenngay"
+                android:id="@+id/txtdenngay"
                 android:paddingLeft="10dp"
                 android:layout_marginRight="20dp"
                 android:textColorHint="#9c9999"
@@ -255,7 +338,7 @@ android:id="@+id/txtdenngay"
                 />
         </LinearLayout>
         <EditText
-android:id="@+id/edtdungcu"
+            android:id="@+id/edtdungcu"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="Dụng cụ và thiết bị"
@@ -272,7 +355,7 @@ android:id="@+id/edtdungcu"
             />
 
         <EditText
-android:id="@+id/edtphuongtien"
+            android:id="@+id/edtphuongtien"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="Phương tiện di chuyển"
@@ -280,7 +363,7 @@ android:id="@+id/edtphuongtien"
             android:layout_marginLeft="20dp"
             android:background="@drawable/border_textview"
             android:textSize="17dp"
-android:layout_gravity="center"
+            android:layout_gravity="center"
             android:paddingLeft="10dp"
             android:layout_marginRight="20dp"
             android:textColorHint="#9c9999"
